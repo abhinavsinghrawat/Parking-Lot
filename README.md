@@ -9,11 +9,11 @@ This is a Parking Lot system design using OOPs principle in python. The objects 
 4. Vehicle
 
 Below mentioned consideration has been made in the design: 
-• ParkingLot - A parking lot is made up of 'n' number of levels/floors and 'm' number of slots per floor.
-• Levels - Each level is an independent entity with a floor number, its lanes and the slots within it. 
+1. ParkingLot - A parking lot is made up of 'n' number of levels/floors and 'm' number of slots per floor.
+2. Level - Each level is an independent entity with a floor number, its lanes and the slots within it. 
            The number of lanes are designed based on the number of slots. 10 slots make one lane
-• Slots - The slots are considered as the independent entities to each other where in the type of the vehicle is considered to fill the slot.
-• Vehicles - Object with plate no., company name and their type. A vehicle has the attributes of license plate and the company it is from.
+3. Slot - The slots are considered as the independent entities to each other where in the type of the vehicle is considered to fill the slot.
+4. Vehicle - Object with plate no., company name and their type. A vehicle has the attributes of license plate and the company it is from.
 
 Also,
 1. Level and Slot are entities that are independent so that any level can be added with a desired number of slots later.
